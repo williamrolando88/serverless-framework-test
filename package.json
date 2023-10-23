@@ -4,16 +4,16 @@
   "description": "",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "dynamo-install": "sls dynamodb install",
+    "offline-start": "sls offline start"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "aws-sdk": "^2.1256.0",
     "serverless": "^3.21.0",
+    "serverless-dynamodb": "^0.2.47",
     "serverless-offline": "^11.3.0"
   },
-  "dependencies": {
-    "serverless-dynamodb-local": "^0.2.40"
-  }
+  "dependencies": {}
 }
